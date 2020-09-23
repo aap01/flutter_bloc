@@ -6,13 +6,13 @@ import 'package:flutter_bloc/domain/repository/auth_repository.dart';
 
 class AuthRepostoryImpl implements AuthRepository {
   @override
-  LoginResponse login(LoginRequest loginRequest) {
+  Future<LoginResponse> login(LoginRequest loginRequest) {
     // TODO: implement login
     throw UnimplementedError();
   }
 
   @override
-  SignupResponse signup(SignupRequest signupRequest) {
+  Future<SignupResponse> signup(SignupRequest signupRequest) {
     // TODO: implement signup
     throw UnimplementedError();
   }
